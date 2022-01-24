@@ -5,4 +5,4 @@ const Header = () =>{
     return <div>Header</div>;
 };
 
-export default Headers;
+export default Header;
