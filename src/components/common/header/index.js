@@ -5,9 +5,12 @@ const Header = () => {
     return (
         <div className="header">
             <div className="header-content">
-                <div className="logo">
-                    <img src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" class="high-res-image" alt="" className="header-logo"></img>
-                </div>
+            <div className="logo">
+          <img
+            src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png"
+            alt=""
+          />
+        </div>
                 <div className="main-text">Discover the best food & drinks in Jaipur</div>
                 <div className="location-searchbar">
                     <div className="location">
