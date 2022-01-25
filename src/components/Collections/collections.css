@@ -61,12 +61,13 @@
     font-size: 14px;
     color: white;
     font-weight: 400;
-    margin-top: -8px;
+    margin-top: -3px;
     margin-left: 12px;
   }
   .collection-card-text i {
-    margin-left: 5px;
-    font-size: 18px;
+    
+    margin-left: 6px;
+    font-size: 15px;
     color: white;
   }
   .collections-content {
@@ -74,14 +75,21 @@
     margin-bottom: 40px;
   }
   .collections-content .description{
+    
       display: flex;
-      justify-content: space-between;
+      justify-content:space-between;
   }
+  
   .collections-content .description .description-link{
-      font-size: 18px;
+      font-size: 16px;
+      
       text-decoration: none;
       color:rgb(243, 109, 109) ;
   }
+.collections-content .description .description-link i{
+  margin-left: 10px;
+}
+
   .collections-content h3 {
     font-size: 36px;
     color: #1c1c1c;
@@ -90,9 +98,9 @@
   .collections-content p {
     font-size: 18px;
     color: #363636;
-    margin-top: -5px;
+    margin-top: -1px;
   }
   .description-link{
     font-size: 18px;
-    margin-top: -5px;
+    margin-top: -1px;
   }
