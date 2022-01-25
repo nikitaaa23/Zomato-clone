@@ -3,6 +3,10 @@ import HomePage from './webPages/homePage';
 
 const App = () =>{
 
-  return <HomePage />;
+  return(
+    <>
+    <HomePage />
+    </>
+    );
 };
 export default App;

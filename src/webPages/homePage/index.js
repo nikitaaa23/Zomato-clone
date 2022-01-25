@@ -1,13 +1,16 @@
 import React from "react";
-import Header from "../../components/common/header";
-import Footer from "../../components/common/footer";
+import Header from '../../components/header';
+import Footer from "../../components/footer";
 
-const HomePage  = () => {
+import './index.css';
+
+const HomePage = () => {
     return (
         <div>
-            <Header />
-            <Footer />
+            <Header/>
+            <Footer/>
         </div>
-    )
-};
+    );
+}
+
 export default HomePage;

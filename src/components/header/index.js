@@ -15,16 +15,17 @@ const Header = () => {
                 <div className="location-searchbar">
                     <div className="location">
                         <div className="location-icon">
-                            <i class="fa fa-map-marker"></i>
+                        <i class="fa fa-map-marker"></i>
                         </div>
                         <div className="location-text">
                             <input type="text" placeholder="Jaipur" />
                         </div>
                         <div className="caret">
                             <i class="fa fa-caret-down"></i>
+
                         </div>
                     </div>
-                    <div className="seperator"></div>
+                    <div className="separator"></div>
                     <div className="searchbar">
                         <div className="search-icon">
                             <i class="fa fa-search"></i>
