@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(255, 251, 247);
+    
+  }
+  
+  .inner{
+    display: flex;
+  }
+ .main .inner img{
+
+    object-position: bottom;
+    width: 68%;
+    height: 65%;
+    object-fit: contain;
+    transform: none;
+    opacity: 1;
+    will-change: transform, opacity;
+    border-radius: inherit;
+    filter: unset;
+ }
+
+ .text-app{
+    color: rgb(28, 28, 28);
+    margin: 0px 0px 10px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 5.6rem;
+}
