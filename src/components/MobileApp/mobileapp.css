@@ -1,32 +1,93 @@
 .main {
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: space-around;
     width: 100%;
     background-color: rgb(255, 251, 247);
-    
+    margin-top: 80px;
+    padding-top: 15px;
   }
   
   .inner{
     display: flex;
+    max-width: 800px;
+    margin: 30px auto;   
   }
- .main .inner img{
 
-    object-position: bottom;
-    width: 68%;
-    height: 65%;
-    object-fit: contain;
-    transform: none;
-    opacity: 1;
-    will-change: transform, opacity;
-    border-radius: inherit;
-    filter: unset;
+  .phone-image img{
+    height: 440px
  }
-
  .text-app{
-    color: rgb(28, 28, 28);
-    margin: 0px 0px 10px;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 5.6rem;
+  margin-left: 20px;
+  margin-top: 25px;
+  padding-left: 20px;
+}
+.text-app h2{
+  font-size: 40px;
+  color: #1c1c1c;
+  font-weight: 500;
+}
+.text-app p{
+  font-size: 16px;
+  color: #363636;
+  line-height: 25px;
+  margin: 15px 0 20px 0;
+}
+
+.radio-button{
+  color: pink;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.radio-button input[type='radio']{
+  fill: #dd4151;
+}
+
+.radio-button label{
+  margin-right: 40px;
+  color: #1c1c1c;
+  font-size: 16px;
+  padding: 5px;
+  cursor: pointer;
+} 
+
+
+
+.input-bar input{
+  width: 260px;
+  height: 38px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 6px;
+  padding: 5px;
+  padding-left: 10px !important;
+  border: 0.5px solid rgb(216, 211, 211);
+  outline: none;
+}
+.input-bar button{
+  width: 150px;
+  height: 48px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 6px;
+  text-align: center;
+  border: 0.5px solid #EF4F5F;
+  cursor: pointer;
+  background-color: #EF4F5F;
+  color: white;
+  font-weight: 300;
+}
+.input-bar button:hover{
+  background-color: #dd4151;
+}
+.download-source img{
+  width: 137px;
+  height: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.download-text{
+  font-size: 14px !important;
+  color: #9c9c9c !important;
+  margin-bottom: 10px !important;
+  margin-top: 25px !important;
 }
