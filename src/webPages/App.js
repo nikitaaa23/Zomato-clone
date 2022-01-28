@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from './webPages/homePage';
+import HomePage from '.';
 
 const App = () =>{
 
