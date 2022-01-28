@@ -37,6 +37,7 @@ const Header = () => {
                             <i class="fa fa-search"></i>
                         </div>
                         <div className="searchbar-input">
+                            <Link to ="/"></Link>
                          <input 
                             onChange={e => setSearchRestro(e.target.value)} 
                             value={searchRestro} 
