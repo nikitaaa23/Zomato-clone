@@ -7,6 +7,7 @@ import './index.css';
 import Collections from "../components/Collections";
 import Localities from "../components/Localities";
 import MobileApp from "../components/MobileApp";
+import { Switch } from "react-router-dom";
 
 const HomePage = () => {
     return (

@@ -1,4 +1,8 @@
-[
+import React from "react";
+import { Link } from "react-router-dom";
+
+const Restaurants = (props) => {
+    const dataRestro = [
     {
         "type": "restaurant",
         "info": {
@@ -1513,3 +1517,4 @@
         "bottomContainers": []
     }
 ]
+};
